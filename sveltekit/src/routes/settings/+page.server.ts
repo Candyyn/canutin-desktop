@@ -13,12 +13,12 @@ export const load = async () => {
 		(await prisma.setting.findUnique({ where: { name: SyncSettings.SYNC_URL } })) as Setting,
 		(await prisma.setting.findUnique({ where: { name: SyncSettings.SYNC_FREQUENCY } })) as Setting,
 		(await prisma.setting.findUnique({ where: { name: SyncSettings.SYNC_COOKIE } })) as Setting,
-		(await prisma.setting.findUnique({ where: { name: SyncSettings.SYNC_JWT } })) as Setting
+		(await prisma.setting.findUnique({ where: { name: SyncSettings.SYNC_JWT } })) as Setting,
 	];
 
 	return {
 		syncStatus,
 		syncSettings,
-		accessKey
+		accessKey,
 	};
 };

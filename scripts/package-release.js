@@ -7,7 +7,7 @@
 // release workflow to match the version in the tagged commit.
 
 // Get the version from the tagged commit
-const version = process.env.APP_VERSION;
+const version = process.env.APP_VERSION || '1.12.12'
 
 // Check version matches semantic versioning (without the leading "v")
 // REGEX source: https://gist.github.com/jhorsman/62eeea161a13b80e39f5249281e17c39?permalink_comment_id=3034996#gistcomment-3034996

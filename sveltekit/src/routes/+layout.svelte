@@ -255,7 +255,7 @@
 	<footer class="layout__footer">
 		<StatusBar />
 		<div class="layout__settings">
-			<ButtonTag disabled={true}>USD $</ButtonTag>
+			<ButtonTag disabled={true}>SEK kr</ButtonTag>
 			<ButtonTag disabled={true}>English</ButtonTag>
 			<ButtonTag on:click={() => getAppLastestVersion(true)}>
 				{data.appVersion}

@@ -53,6 +53,20 @@ export enum EventFrequency {
 	TWICE_A_MONTH = 'Twice a month'
 }
 
+export enum Currency {
+    USD = 'USD',
+    EUR = 'EUR',
+    GBP = 'GBP',
+    CHF = 'CHF',
+    CAD = 'CAD',
+    AUD = 'AUD',
+    JPY = 'JPY',
+    CNY = 'CNY',
+    SEK = 'SEK',
+    NOK = 'NOK',
+    DKK = 'DKK',
+}
+
 export enum DeveloperFunctions {
 	DB_WIPE,
 	DB_WIPE_ACCOUNTS_ASSETS,
@@ -64,19 +78,19 @@ export enum DeveloperFunctions {
 }
 
 export enum SyncSettings {
-	SYNC_ENABLED = 'SYNC_ENABLED',
-	SYNC_URL = 'SYNC_URL',
-	SYNC_FREQUENCY = 'SYNC_FREQUENCY',
-	SYNC_COOKIE = 'SYNC_COOKIE',
-	SYNC_JWT = 'SYNC_JWT'
+    SYNC_ENABLED = 'SYNC_ENABLED',
+    SYNC_URL = 'SYNC_URL',
+    SYNC_FREQUENCY = 'SYNC_FREQUENCY',
+    SYNC_COOKIE = 'SYNC_COOKIE',
+    SYNC_JWT = 'SYNC_JWT'
 }
 
 export enum AccessKeySettings {
-	ACCESS_KEY = 'ACCESS_KEY'
+    ACCESS_KEY = 'ACCESS_KEY'
 }
 
 export enum EventStatus {
-	READ = 'read',
-	UNREAD = 'unread',
-	ONGOING = 'ongoing'
+    READ = 'read',
+    UNREAD = 'unread',
+    ONGOING = 'ongoing'
 }
